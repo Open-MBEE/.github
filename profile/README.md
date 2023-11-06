@@ -23,6 +23,13 @@ Popular Repositories:
 - [Cameo Model Development Kit](https://github.com/Open-MBEE/mdk) - Cameo Systems Modeler plugin for defining views for View Editor
 - [View Editor](https://github.com/Open-MBEE/ve) - Interact with SysML models within a web-based environment
 
+## Example Models
+SysML v1 example models.
+- [TMT-SysML-Model](https://github.com/Open-MBEE/TMT-SysML-Model) - Thirty Meter Telescope System Model in SysML 
+- [OpenSE-Cookbook](https://github.com/Open-MBEE/OpenSE-Cookbook) - Collection of examples and best practices
+
+
+
 ## Contributing 
 - [General Contributing Guidelines](https://www.openmbee.org/contribute.html#)
 - [License](https://www.openmbee.org/licenses.html#)
