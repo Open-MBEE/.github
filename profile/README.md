@@ -8,15 +8,15 @@ OpenMBEE (Open Model Based Engineering Environment) is an open source collaborat
 
 ## OpenMBEE Architectures
 ### Flexo
-Flexo expands on the concept of version control models from execubot. Execubots representation of the data is in JSON, Flexo exposes models as RDF. Models in Flexo are not limited to enterprise model development platforms. A model in Flexo can be anything that is represented as RDF.  
+The predecessor architecture, Execubots, stores model elements as objects in a document-oriented database, whereas Flexo provides a graph-native approach to storing and diff'ing models. Models in Flexo are not limited to enterprise model development platforms. Flexo can store anything expressed as RDF.
 
 Popular Repositories:  
-- [mms5-layer1-service](https://github.com/Open-MBEE/mms5-layer1-service) - REST server allowing for CRUD operations of named graphs
+- [mms5-layer1-service](https://github.com/Open-MBEE/mms5-layer1-service) - Root component of the Flexo MMS stack, allowing for version-controlled CRUD operations of RDF models
 - [openapi-graph-extractor](https://github.com/Open-MBEE/openapi-graph-extractor) - Converts well-defined JSON data to RDF by consuming an OpenAPI document 
 - [mms5-deployment](https://github.com/Open-MBEE/mms5-deployment) - YAML files for deployment of MMS5 services in k8s
 
-### Execubot
-The Execubot architecture allows Systems Engineers to develop models in their enterprise model development platform and publish aspects of the model to the web.  
+### Execubots
+The Execubots architecture allows Systems Engineers to develop models in their enterprise model development platform and publish aspects of the model to the web.  
 
 Popular Repositories:
 - [Model Management System](https://github.com/Open-MBEE/mms) - Management and version control for SysML models
