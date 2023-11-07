@@ -10,18 +10,18 @@ OpenMBEE (Open Model Based Engineering Environment) is an open source collaborat
 ### Flexo
 The predecessor architecture, Execubots, stores model elements as objects in a document-oriented database, whereas Flexo provides a graph-native approach to storing and diff'ing models. Models in Flexo are not limited to enterprise model development platforms. Flexo can store anything expressed as RDF.
 
-Popular Repositories:  
-- [mms5-layer1-service](https://github.com/Open-MBEE/mms5-layer1-service) - Root component of the Flexo MMS stack, allowing for version-controlled CRUD operations of RDF models
+Popular Repositories (repositories relevant to this architecture are prefixed with "flexo-"):  
+- [flexo-mms-layer1-service](https://github.com/Open-MBEE/flexo-mms-layer1-service) - Root component of the Flexo MMS stack, allowing for version-controlled CRUD operations of RDF models
+- [flexo-mms-deployment](https://github.com/Open-MBEE/flexo-mms-deployment) - examples for setting up Flexo-mms with docker compose or k8s
 - [openapi-graph-extractor](https://github.com/Open-MBEE/openapi-graph-extractor) - Converts well-defined JSON data to RDF by consuming an OpenAPI document 
-- [mms5-deployment](https://github.com/Open-MBEE/mms5-deployment) - YAML files for deployment of MMS5 services in k8s
 
 ### Execubots
 The Execubots architecture allows Systems Engineers to develop models in their enterprise model development platform and publish aspects of the model to the web.  
 
-Popular Repositories:
-- [Model Management System](https://github.com/Open-MBEE/mms) - Management and version control for SysML models
-- [Cameo Model Development Kit](https://github.com/Open-MBEE/mdk) - Cameo Systems Modeler plugin for defining views for View Editor
-- [View Editor](https://github.com/Open-MBEE/ve) - Interact with SysML models within a web-based environment
+Popular Repositories (repositories relevant to this architecture are prefixed with "exec-"):
+- [Model Management System](https://github.com/Open-MBEE/exec-mms) - Management and version control for SysML models
+- [Cameo Model Development Kit](https://github.com/Open-MBEE/exec-cameo-mdk) - Cameo Systems Modeler plugin for defining views for View Editor
+- [View Editor](https://github.com/Open-MBEE/exec-ve) - Interact with SysML models within a web-based environment
 
 ## Example Models
 SysML v1 example models.
