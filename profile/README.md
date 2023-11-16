@@ -1,5 +1,5 @@
 
-<img src="./img/openmbee-logo.svg" width="400" alt="OpenMBEE" />
+<img src="/profile/img/openmbee-logo.svg" width="400" alt="OpenMBEE" />
 
 
 
