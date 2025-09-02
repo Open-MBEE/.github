@@ -13,6 +13,7 @@ The predecessor architecture, Execubots, stores model elements as objects in a d
 Relevant Repositories (repositories relevant to this architecture are prefixed with "flexo-"):  
 - [flexo-mms-deployment](https://github.com/Open-MBEE/flexo-mms-deployment) - examples for setting up Flexo-mms with docker compose or k8s
 - [flexo-mms-layer1-service](https://github.com/Open-MBEE/flexo-mms-layer1-service) - Root component of the Flexo MMS stack, allowing for version-controlled CRUD operations of RDF models
+- [flexo-mms-sysmlv2](https://github.com/Open-MBEE/flexo-mms-sysmlv2) - SysMLv2 API service using flexo layer1 as a backend
 - [openapi-graph-extractor](https://github.com/Open-MBEE/openapi-graph-extractor) - Converts well-defined JSON data to RDF by consuming an OpenAPI document 
 
 ### Execubots
