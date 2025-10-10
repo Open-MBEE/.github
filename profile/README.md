@@ -32,7 +32,7 @@ SysML v1 example models.
 
 
 ## Contributing 
-- [General Contributing Guidelines](https://www.openmbee.org/contribute.html#)
+- [General Contributing Guidelines](https://github.com/Open-MBEE/open-mbee.github.io/wiki/Contribute)
 - [License](https://www.openmbee.org/licenses.html#)
 
 
